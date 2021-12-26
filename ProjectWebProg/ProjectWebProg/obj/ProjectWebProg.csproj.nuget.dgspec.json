@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Berkay\\Documents\\GitHub\\WebProg_Project\\ProjectWebProg\\ProjectWebProg\\ProjectWebProg.csproj": {}
+    "C:\\Users\\rafet\\OneDrive\\noname\\Masaüstü\\WebProg_Project\\ProjectWebProg\\ProjectWebProg\\ProjectWebProg.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Berkay\\Documents\\GitHub\\WebProg_Project\\ProjectWebProg\\ProjectWebProg\\ProjectWebProg.csproj": {
+    "C:\\Users\\rafet\\OneDrive\\noname\\Masaüstü\\WebProg_Project\\ProjectWebProg\\ProjectWebProg\\ProjectWebProg.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Berkay\\Documents\\GitHub\\WebProg_Project\\ProjectWebProg\\ProjectWebProg\\ProjectWebProg.csproj",
+        "projectUniqueName": "C:\\Users\\rafet\\OneDrive\\noname\\Masaüstü\\WebProg_Project\\ProjectWebProg\\ProjectWebProg\\ProjectWebProg.csproj",
         "projectName": "ProjectWebProg",
-        "projectPath": "C:\\Users\\Berkay\\Documents\\GitHub\\WebProg_Project\\ProjectWebProg\\ProjectWebProg\\ProjectWebProg.csproj",
-        "packagesPath": "C:\\Users\\Berkay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Berkay\\Documents\\GitHub\\WebProg_Project\\ProjectWebProg\\ProjectWebProg\\obj\\",
+        "projectPath": "C:\\Users\\rafet\\OneDrive\\noname\\Masaüstü\\WebProg_Project\\ProjectWebProg\\ProjectWebProg\\ProjectWebProg.csproj",
+        "packagesPath": "C:\\Users\\rafet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rafet\\OneDrive\\noname\\Masaüstü\\WebProg_Project\\ProjectWebProg\\ProjectWebProg\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Berkay\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\rafet\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
