@@ -15,5 +15,11 @@ namespace WebProg_Project.Data
         }
 
         public DbSet<WebProg_Project.Models.Summoner> Summoner { get; set; }
+
+        public DbSet<WebProg_Project.Models.FreeChampionRotation> FreeChampionRotation { get; set; }
+
+        public DbSet<WebProg_Project.Models.SummonerChampionMastery> SummonerChampionMastery { get; set; }
+
+        public DbSet<WebProg_Project.Models.SummonerRankedLeagueDetail> SummonerRankedLeagueDetail { get; set; }
     }
 }

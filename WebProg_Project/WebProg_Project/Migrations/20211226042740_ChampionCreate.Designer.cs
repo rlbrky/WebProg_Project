@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebProg_Project.Data;
 
 namespace WebProg_Project.Migrations
 {
     [DbContext(typeof(WebProg_ProjectContext))]
-    partial class WebProg_ProjectContextModelSnapshot : ModelSnapshot
+    [Migration("20211226042740_ChampionCreate")]
+    partial class ChampionCreate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -19,14 +21,33 @@ namespace WebProg_Project.Migrations
                 .HasAnnotation("ProductVersion", "5.0.12")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("WebProg_Project.Models.FreeChampionRotation", b =>
+            modelBuilder.Entity("WebProg_Project.Models.Champion", b =>
                 {
-                    b.Property<string>("ChampionId")
+                    b.Property<string>("Id")
+                        .HasMaxLength(25)
                         .HasColumnType("nvarchar(25)");
 
-                    b.HasKey("ChampionId");
+                    b.Property<string>("Blurb")
+                        .IsRequired()
+                        .HasMaxLength(2147483647)
+                        .HasColumnType("nvarchar(max)");
 
-                    b.ToTable("FreeChampionRotation");
+                    b.Property<int>("Key")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(25)
+                        .HasColumnType("nvarchar(25)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Champion");
                 });
 
             modelBuilder.Entity("WebProg_Project.Models.Summoner", b =>
@@ -96,26 +117,7 @@ namespace WebProg_Project.Migrations
                     b.ToTable("SummonerChampionMastery");
                 });
 
-            modelBuilder.Entity("WebProg_Project.Models.FreeChampionRotation", b =>
-                {
-                    b.HasOne("WebProg_Project.Models.Champion", "Champion")
-                        .WithMany()
-                        .HasForeignKey("ChampionId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Champion");
-                });
-
             modelBuilder.Entity("WebProg_Project.Models.SummonerChampionMastery", b =>
-                {
-                    b.HasOne("WebProg_Project.Models.Champion", "Champion")
-                        .WithMany()
-                        .HasForeignKey("ChampionId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-            modelBuilder.Entity("WebProg_Project.Models.SummonerRankedLeagueDetail", b =>
                 {
                     b.HasOne("WebProg_Project.Models.Summoner", "Summoner")
                         .WithMany()
