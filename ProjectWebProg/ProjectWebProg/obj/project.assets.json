@@ -6147,11 +6147,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Berkay\\source\\repos\\ProjectWebProg\\ProjectWebProg\\ProjectWebProg.csproj",
+      "projectUniqueName": "C:\\Users\\Berkay\\Documents\\GitHub\\WebProg_Project\\ProjectWebProg\\ProjectWebProg\\ProjectWebProg.csproj",
       "projectName": "ProjectWebProg",
-      "projectPath": "C:\\Users\\Berkay\\source\\repos\\ProjectWebProg\\ProjectWebProg\\ProjectWebProg.csproj",
+      "projectPath": "C:\\Users\\Berkay\\Documents\\GitHub\\WebProg_Project\\ProjectWebProg\\ProjectWebProg\\ProjectWebProg.csproj",
       "packagesPath": "C:\\Users\\Berkay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Berkay\\source\\repos\\ProjectWebProg\\ProjectWebProg\\obj\\",
+      "outputPath": "C:\\Users\\Berkay\\Documents\\GitHub\\WebProg_Project\\ProjectWebProg\\ProjectWebProg\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
