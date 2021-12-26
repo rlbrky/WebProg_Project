@@ -7,6 +7,7 @@ namespace WebProg_Project.Models
 {
     public class Summoner
     {
+        [Key]
         [StringLength(150)]
         [Required]
         [Display(Name = "Summoner Id")]
