@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Berkay\\Documents\\GitHub\\WebProg_Project\\WebProg_Project\\WebProg_Project\\WebProg_Project.csproj": {}
+    "C:\\Users\\rafet\\OneDrive\\noname\\Masaüstü\\WebProg_Project\\WebProg_Project\\WebProg_Project\\WebProg_Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Berkay\\Documents\\GitHub\\WebProg_Project\\WebProg_Project\\WebProg_Project\\WebProg_Project.csproj": {
+    "C:\\Users\\rafet\\OneDrive\\noname\\Masaüstü\\WebProg_Project\\WebProg_Project\\WebProg_Project\\WebProg_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Berkay\\Documents\\GitHub\\WebProg_Project\\WebProg_Project\\WebProg_Project\\WebProg_Project.csproj",
+        "projectUniqueName": "C:\\Users\\rafet\\OneDrive\\noname\\Masaüstü\\WebProg_Project\\WebProg_Project\\WebProg_Project\\WebProg_Project.csproj",
         "projectName": "WebProg_Project",
-        "projectPath": "C:\\Users\\Berkay\\Documents\\GitHub\\WebProg_Project\\WebProg_Project\\WebProg_Project\\WebProg_Project.csproj",
-        "packagesPath": "C:\\Users\\Berkay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Berkay\\Documents\\GitHub\\WebProg_Project\\WebProg_Project\\WebProg_Project\\obj\\",
+        "projectPath": "C:\\Users\\rafet\\OneDrive\\noname\\Masaüstü\\WebProg_Project\\WebProg_Project\\WebProg_Project\\WebProg_Project.csproj",
+        "packagesPath": "C:\\Users\\rafet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rafet\\OneDrive\\noname\\Masaüstü\\WebProg_Project\\WebProg_Project\\WebProg_Project\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Berkay\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\rafet\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +40,20 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNet.WebApi": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[5.0.2, )"
@@ -67,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
