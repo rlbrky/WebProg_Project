@@ -15,5 +15,6 @@ namespace WebProg_Project.Data
         }
 
         public DbSet<WebProg_Project.Models.Summoner> Summoner { get; set; }
+        public DbSet<WebProg_Project.Models.SummonerRankedLeagueDetail> SummonerRankedLeagueDetail { get; set; }
     }
 }
